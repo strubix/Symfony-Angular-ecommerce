@@ -13,4 +13,4 @@ Refer to [angular-quickstart](https://github.com/strubix/angular-quickstart) for
 * [Lucas Strübi](https://github.com/strubix)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
