@@ -1,0 +1,13 @@
+.home {
+  background-color: #F5F5F5;
+  & .home-title{
+    height: 46px;
+    background-color: #323232;
+    margin-bottom: 20px;
+    & p {
+      text-align: center;
+      color: #FFF;
+      line-height: 46px;
+    }
+  }
+}
