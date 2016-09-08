@@ -6,6 +6,15 @@ This is an e-commerce school website project.
 
 Refer to [angular-quickstart](https://github.com/strubix/angular-quickstart) for front-end development.
 
+### prerequisities
+* composer
+* npm
+* webpack
+
+### Installation
+`cd front-end && npm install`
+
+This will install front dependencies.
 ## Contributors
 * [Yoann Allain](https://github.com/yoan-aln)
 * [Alexandre Buchs](https://github.com/buuchs)
