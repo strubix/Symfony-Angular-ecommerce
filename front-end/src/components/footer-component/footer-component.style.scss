@@ -5,6 +5,17 @@
     color: #FFF;
     padding: 50px 30px 20px 30px;
     height: auto;
+    & img {
+      width: auto;
+      height: 63px;
+    }
+  }
+  & .contact {
+    & span {
+      font-size: 1.5em;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
   }
   & input, textarea, button {
     background-color: #323232;
