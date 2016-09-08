@@ -1,8 +1,25 @@
 .footer-component {
-  &>div {
+  overflow: auto;
+  background: #1D1D1D;
+  & > div {
     color: #FFF;
     padding: 50px 30px 20px 30px;
-    background: #1D1D1D;
     height: auto;
+  }
+  & input, textarea, button {
+    background-color: #323232;
+    border-color: #636363;
+    color: #6D6D6D;
+  }
+}
+footer {
+  clear: both;
+  background-color: #000000;
+  color: #FFF;
+  text-align: center;
+  height: 52px;
+  line-height: 52px;
+  & p {
+    margin: 0;
   }
 }
