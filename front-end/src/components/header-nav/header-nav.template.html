@@ -1,13 +1,30 @@
-<section class="header">
-    <div class="col-m-3">
-        <h1>Logo</h1>
+<section class="header-nav">
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+        <div class="logo">
+            <a href="#">
+                <img src="img/logo.svg" alt="logo">
+            </a>
+        </div>
     </div>
-    <div class="col-m-7 hidden-xs">
+    <div class="hidden-xs hidden-sm col-md-6 col-lg-7">
         <div class="form-group">
             <input type="text" class="form-control input-lg" placeholder="Rechercher...">
         </div>
     </div>
-    <div class="col-m-7 hidden-xs">
-        <p>0 items | 0 €</p>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-2">
+        <a href="#">
+            <div class="header-cart">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+                <p>0 items | 0 €</p>
+            </div>
+        </a>
+    </div>
+    <div class="col-xs-12 col-sm-12 hidden-md hidden-lg">
+        <div class="header-menu">
+            <p>Menu</p>
+            <span ng-click="vm.dropMenu($event)">
+                <img src="img/hamburger.svg" alt="afficher menu">
+            </span>
+        </div>
     </div>
 </section>
