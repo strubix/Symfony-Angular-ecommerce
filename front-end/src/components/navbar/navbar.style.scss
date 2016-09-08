@@ -1,3 +1,9 @@
 .navbar {
-  border-radius: 0 !important;
+  border-radius: 0;
+  & button {
+    background-color: #A7A9AA;
+    border-color: #A7A9AA;
+    color: #FFF;
+    font-weight: bold;
+  }
 }
