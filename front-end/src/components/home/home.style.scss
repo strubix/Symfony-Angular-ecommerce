@@ -2,14 +2,4 @@
   background-color: #F5F5F5;
   /* TODO: Retirer cette height lors de l'ajout du slider */
   height: 450px;
-  & .home-title{
-    height: 46px;
-    background-color: #323232;
-    margin-bottom: 20px;
-    & p {
-      text-align: center;
-      color: #FFF;
-      line-height: 46px;
-    }
-  }
 }

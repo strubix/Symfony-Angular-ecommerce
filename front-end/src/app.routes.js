@@ -10,6 +10,10 @@ angular.module(routes, ['ui.router'])
             url: "/",
             template: "<home></home>",
           })
+          .state("cart", {
+            url: "/cart",
+            template: "<cart></cart>",
+          })
     }]);
 
 export default routes;
