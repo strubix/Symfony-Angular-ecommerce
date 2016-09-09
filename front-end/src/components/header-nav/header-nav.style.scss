@@ -34,6 +34,25 @@
       float: right;
     }
   }
+  & .header-menu-xl {
+    & ul {
+      text-align: center;
+      & li {
+        display: inline-block;
+        padding: 30px;
+        & a {
+          font-size: 1.2em;
+          font-weight: bold;
+          color: #000;
+          transition-duration: 0.5s;
+          &:hover {
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.64);
+          }
+        }
+      }
+    }
+  }
   & .header-menu {
     background: #1D1D1D;
     color: #FFF;
@@ -55,6 +74,7 @@
     }
   }
 }
+
 .navbar-form {
   border-top: none;
   border-bottom: none;
