@@ -1,4 +1,7 @@
 .footer-component {
+  & h2 {
+    font-weight: bold;
+  }
   overflow: auto;
   background: #1D1D1D;
   & > div {
